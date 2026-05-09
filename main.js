@@ -13,8 +13,6 @@ registerPlugin(
         }
     },
     async (input) => {
-        output.result = input.left + input.right;
-
         return {
             result: input.left + input.right
         };
